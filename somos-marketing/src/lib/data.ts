@@ -196,13 +196,13 @@ export const CONTACT = {
     "¿Listo para potenciar tu marca? Escríbenos y diseñemos juntos tu próxima estrategia.",
   // TODO: Reemplazar con datos reales
   email: "contacto@somosmarketing.cl",
-  whatsapp: "+56 9 1234 5678",
+  whatsapp: "+56 9 7988 1832",
 } as const;
 
 /* ── Footer / Redes ─────────────────────────────────────────────────────── */
 // TODO: Reemplazar con links reales de redes sociales
 export const SOCIAL_LINKS = [
-  { label: "LinkedIn", href: "#" },
-  { label: "Instagram", href: "#" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/juan-pablo-mena-rozas/" },
+  { label: "Instagram", href: "https://www.instagram.com/somosmarketing?igsh=OHM4dWw2dzdzc2p0" },
   { label: "Email", href: "mailto:contacto@somosmarketing.cl" },
 ] as const;
