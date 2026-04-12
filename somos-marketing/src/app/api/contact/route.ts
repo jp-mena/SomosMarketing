@@ -3,7 +3,7 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-const TO_EMAIL = "jpmena@miuandes.cl";
+const TO_EMAIL = "mena.jp@me.com";
 
 export async function POST(request: Request) {
   const { nombre, email, empresa, mensaje } = await request.json();

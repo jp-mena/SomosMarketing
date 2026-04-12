@@ -207,7 +207,7 @@ export const CONTACT = {
   subheadline:
     "¿Listo para potenciar tu marca? Escríbenos y diseñemos juntos tu próxima estrategia.",
   // TODO: Reemplazar con datos reales
-  email: "contacto@somosmarketing.cl",
+  email: "mena.jp@me.com",
   whatsapp: "+56 9 7988 1832",
 } as const;
 
@@ -216,5 +216,5 @@ export const CONTACT = {
 export const SOCIAL_LINKS = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/juan-pablo-mena-rozas/" },
   { label: "Instagram", href: "https://www.instagram.com/somosmarketing?igsh=OHM4dWw2dzdzc2p0" },
-  { label: "Email", href: "mailto:contacto@somosmarketing.cl" },
+  { label: "Email", href: "mailto:mena.jp@me.com" },
 ] as const;
