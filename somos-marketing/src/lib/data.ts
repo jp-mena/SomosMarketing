@@ -187,6 +187,18 @@ export const CLIENT_LOGOS = [
   { id: 13, name: "Ventisquero", file: "ventisquero-logo-clientes.png" },
   { id: 14, name: "Colacao", file: "colacao-logo.jpeg" },
   { id: 15, name: "Mercedes-Benz", file: "mercedes.png" },
+  { id: 16, name: "Biotec", file: "biotec-logo.png" },
+  { id: 17, name: "Agrosuper", file: "agrosuper-logo.jpg" },
+  { id: 18, name: "Agrocommerce", file: "agrocommerce-logo.png" },
+  { id: 19, name: "TIM", file: "tim-logo.png" },
+  { id: 20, name: "Carozzi", file: "carozzi-logo.png" },
+  { id: 21, name: "Precisa Frozen", file: "precisa_frozen.png" },
+  { id: 22, name: "Freightliner", file: "freightliner-logo.svg" },
+  { id: 23, name: "Twistos", file: "twistos.png" },
+  { id: 24, name: "Cristal", file: "cristal-logo.png" },
+  { id: 25, name: "Entel", file: "entel-logo.svg" },
+  { id: 26, name: "Trendy", file: "trendy-logo.png" },
+  { id: 27, name: "Western Star Trucks", file: "western-star-logo.png" },
 ];
 
 /* ── Contacto ───────────────────────────────────────────────────────────── */
