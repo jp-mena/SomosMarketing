@@ -1,0 +1,40 @@
+# ── Claude / agentes (archivos internos del entorno de desarrollo) ────────────
+/.agents
+/.claude
+
+# ── Dependencies ──────────────────────────────────────────────────────────────
+/somos-marketing/node_modules/
+
+# ── Next.js build output ──────────────────────────────────────────────────────
+/somos-marketing/.next/
+/somos-marketing/out/
+
+# ── TypeScript cache ──────────────────────────────────────────────────────────
+/somos-marketing/tsconfig.tsbuildinfo
+
+# ── Environment variables (nunca subir al repo) ───────────────────────────────
+.env
+.env.local
+.env.*.local
+/somos-marketing/.env
+/somos-marketing/.env.local
+/somos-marketing/.env.*.local
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ── OS / Editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+/somos-marketing/.vercel
+/somos-marketing/.turbo
+skills-lock.json
