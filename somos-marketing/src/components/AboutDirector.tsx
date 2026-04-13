@@ -33,7 +33,7 @@ export default function AboutDirector() {
             alt="SomosMarketing"
             width={800}
             height={200}
-            style={{ width: "100%", height: "auto" }}
+            className="w-80 h-auto"
           />
         </motion.div>
 
