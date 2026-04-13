@@ -31,9 +31,9 @@ export default function AboutDirector() {
           <Image
             src="/logo-long.png"
             alt="SomosMarketing"
-            width={320}
-            height={80}
-            className="h-20 w-auto"
+            width={800}
+            height={200}
+            style={{ width: "100%", height: "auto" }}
           />
         </motion.div>
 
