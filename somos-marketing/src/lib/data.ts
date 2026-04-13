@@ -215,6 +215,5 @@ export const CONTACT = {
 // TODO: Reemplazar con links reales de redes sociales
 export const SOCIAL_LINKS = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/juan-pablo-mena-rozas/" },
-  { label: "Instagram", href: "https://www.instagram.com/somosmarketing?igsh=OHM4dWw2dzdzc2p0" },
   { label: "Email", href: "mailto:mena.jp@me.com" },
 ] as const;
