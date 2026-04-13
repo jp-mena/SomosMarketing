@@ -46,9 +46,15 @@ export default function AboutDirector() {
           className="flex flex-col gap-8 max-w-2xl"
         >
           {/* Name & photo inline */}
-          <div className="flex items-center gap-5">
+          <a
+            href="https://www.linkedin.com/in/juan-pablo-mena-rozas/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-5 group w-fit"
+            aria-label="Ver perfil de Juan Pablo Mena Rozas en LinkedIn"
+          >
             {/* Circular photo – clipped to circle to remove black background */}
-            <div className="relative w-16 h-16 flex-shrink-0 rounded-full overflow-hidden ring-2 ring-border">
+            <div className="relative w-16 h-16 flex-shrink-0 rounded-full overflow-hidden ring-2 ring-border transition-all duration-200 group-hover:ring-accent">
               <Image
                 src="/jpmena.jpg"
                 alt="Juan Pablo Mena Rozas"
@@ -61,7 +67,7 @@ export default function AboutDirector() {
             <div>
               <h3
                 id="about-title"
-                className="text-2xl sm:text-3xl font-bold tracking-tight"
+                className="text-2xl sm:text-3xl font-bold tracking-tight transition-colors duration-200 group-hover:text-accent-foreground"
               >
                 Juan Pablo Mena Rozas
               </h3>
@@ -69,7 +75,7 @@ export default function AboutDirector() {
                 Director de Marketing · Gerente Comercial · Asesorías en Estrategia
               </p>
             </div>
-          </div>
+          </a>
 
           {/* Bio */}
           <p className="text-muted-foreground leading-relaxed text-base">
