@@ -33,7 +33,7 @@ export default function AboutDirector() {
             alt="SomosMarketing"
             width={320}
             height={80}
-            className="h-14 w-auto"
+            className="h-20 w-auto"
           />
         </motion.div>
 
