@@ -7,15 +7,9 @@ const highlights = [
   { value: "+20", label: "Años de experiencia" },
   { value: "MBA", label: "Universidad Católica" },
   { value: "B2B & B2C", label: "Estrategias comerciales" },
-  { value: "Bilingüe", label: "Inglés avanzado" },
+  { value: "360°", label: "Marketing estratégico" },
 ];
 
-const industries = [
-  "Automotriz",
-  "Consumo masivo",
-  "Agroindustrial",
-  "Alimentaria",
-];
 
 export default function AboutDirector() {
   return (
@@ -35,41 +29,36 @@ export default function AboutDirector() {
           transition={{ duration: 0.7 }}
           className="max-w-2xl mb-16"
         >
-          <p className="text-sm font-medium tracking-widest uppercase text-accent-foreground mb-3">
-            Quiénes somos
-          </p>
           <h2
             id="about-title"
             className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight"
           >
-            La persona detrás de{" "}
             <span className="text-accent-foreground">Somos</span>
+            <span className="text-foreground">Marketing</span>
           </h2>
         </motion.div>
 
         {/* Content: photo + info */}
-        <div className="grid gap-12 lg:grid-cols-2 lg:gap-20 items-center">
+        <div className="grid gap-12 lg:grid-cols-[280px_1fr] lg:gap-16 items-center">
           {/* Photo */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="relative"
+            className="relative mx-auto lg:mx-0 w-48 lg:w-full"
           >
-            <div className="relative aspect-[4/5] rounded-2xl overflow-hidden border border-border shadow-2xl shadow-accent/5">
+            <div className="relative aspect-[3/4] rounded-2xl overflow-hidden border border-border shadow-xl shadow-accent/5">
               <Image
                 src="/juan-pablo.jpg"
                 alt="Juan Pablo Mena Rozas – Director de Somos Marketing"
                 fill
                 className="object-cover object-top"
-                sizes="(max-width: 1024px) 100vw, 50vw"
+                sizes="280px"
               />
-              {/* Subtle overlay gradient at bottom */}
               <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/40 to-transparent" />
             </div>
-            {/* Decorative accent border */}
-            <div className="absolute -bottom-4 -right-4 w-full h-full rounded-2xl border border-accent/20 -z-10" />
+            <div className="absolute -bottom-3 -right-3 w-full h-full rounded-2xl border border-accent/20 -z-10" />
           </motion.div>
 
           {/* Info */}
@@ -118,22 +107,6 @@ export default function AboutDirector() {
               ))}
             </div>
 
-            {/* Industries */}
-            <div>
-              <p className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-3">
-                Industrias
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {industries.map((ind) => (
-                  <span
-                    key={ind}
-                    className="rounded-full border border-border px-4 py-1.5 text-sm text-muted-foreground"
-                  >
-                    {ind}
-                  </span>
-                ))}
-              </div>
-            </div>
           </motion.div>
         </div>
       </div>
